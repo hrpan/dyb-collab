@@ -299,6 +299,18 @@ section h3.section-subheading {
   font-weight: 400;
   margin-bottom: 75px;
 }
+section .list-heading {
+  font-size: 30px;
+  padding-left: 10px;  
+}
+section .list-description{
+  font-size: 16px;
+  
+}
+section a {
+  color:black;
+  text-decoration: underline;
+}
 @media (min-width: 768px) {
   section {
     padding: 150px 0;
