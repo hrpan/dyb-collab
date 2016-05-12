@@ -15,7 +15,7 @@ body {
   color: #fed136;
 }
 p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.75;
 }
 p.large {
@@ -301,11 +301,11 @@ section h3.section-subheading {
 }
 section .list-heading {
   font-size: 30px;
-  padding-left: 10px;  
+  padding-left: 20px;  
 }
 section .list-description{
   font-size: 16px;
-  
+  font-family: "Consolas","monospace","Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 section a {
   color:black;
@@ -757,4 +757,9 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #fed136;
+}
+p > img {
+  position:relative;
+  float:right;
+  height:300px;
 }
