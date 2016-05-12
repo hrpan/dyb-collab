@@ -236,6 +236,13 @@ header {
   color: white;
 
 }
+header .header-image img{
+  position: relative;
+  float:left;
+  top:10px;
+  height: 170px;  
+}
+
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
